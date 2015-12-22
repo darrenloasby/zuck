@@ -9,16 +9,16 @@ module Zuck
                :adset_id,              #ID number that is unique to each ad set.
                :campaign_id,           #ID number that is unique to each campaign.
                # name fields
-               :account_name,          
+               :account_name,
                # :ad_name,
                :adset_name,
-               :campaign_name,         
+               :campaign_name,
                # date fields
                :date_start,            #The start date for your data.
                :date_stop,             #The end date for your data.
                # general fields
                :call_to_action_clicks, #Total number of clicks on the call to action button of the ad.
-               :unique_clicks,         #The total number of unique people who have clicked on your ad. 
+               :unique_clicks,         #The total number of unique people who have clicked on your ad.
                :inline_link_clicks,    #Total number of clicks on links in the ad
                :cost_per_inline_link_click,      #The average cost per click on links in the ad
                :inline_post_engagement,#Total number of engagements on the post
@@ -37,7 +37,7 @@ module Zuck
                :social_clicks,         #The number of clicks your ad receives when it's shown with social information
                :unique_social_clicks,  #The number of individuals who clicked this ad while it had social context.
                :social_impressions,    #The number of times your ad was served, with social information.
-               :social_reach,          #The number of people your ad was served to with social information. 
+               :social_reach,          #The number of people your ad was served to with social information.
                :spend,                 #The total amount you've spent so far.
                :total_action_value,    #The total revenue returned from conversions or Facebook credit spends that occurred on your website or app.
                :total_actions,         #The number of actions taken on your ad, Page, app or event after your ad was served to someone, even if they didn't click on it.
