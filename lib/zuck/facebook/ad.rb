@@ -9,7 +9,6 @@ module Zuck
       # :campaign_group_id, #deprecated on read Campaign ID
       :campaign_id,      #Campaign ID
       :adlabels,
-      :date_format,
       :creative,
       :name,
       :status,
