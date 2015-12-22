@@ -17,7 +17,7 @@ module Zuck
       :display_sequence,
       :execution_options,
       :bid_amount
-    
+
     parent_object :ad_set, as: :adset_id
 
     def ad_creative
