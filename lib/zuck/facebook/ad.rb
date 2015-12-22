@@ -15,7 +15,6 @@ module Zuck
       :tracking_specs,
       :display_sequence,
       :execution_options,
-      :adlabels,
       :bid_amount
     
     parent_object :ad_set, as: :adset_id
