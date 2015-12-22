@@ -89,6 +89,7 @@ module Zuck
                 :custom_audiences,   #2nd level
                 :ad_images,          #2nd level
                 :ad_creatives,       # all the ad creatives for this account (across campaigns)
+                :ads
 
     # TODO: All edges from https://developers.facebook.com/docs/marketing-api/reference/ad-account/adcreatives/
     # :activities,              # AdActivity log for the ad account
