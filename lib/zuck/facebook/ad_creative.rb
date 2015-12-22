@@ -62,7 +62,7 @@ module Zuck
     # connections   :ad_previews
 
     def ad_previews
-      graph.get_connection(id, "previews", {ad_format: "DESKTOP_FEED_STANDARD"}, options = {})#(self.id, "adaccounts", adaccounts: destination_account_ids.to_json)
+      graph.get_connection(id, "previews", {ad_format: "DESKTOP_FEED_STANDARD"}, options = {}).map(&:body)#(self.id, "adaccounts", adaccounts: destination_account_ids.to_json)
     end
 
   end
