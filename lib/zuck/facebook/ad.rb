@@ -19,6 +19,10 @@ module Zuck
     
     parent_object :ad_set, as: :adset_id
 
+    def ad_creative
+      AdAccount.find creative["id"]
+    end
+
     # connections :, #Creative associated with this ad
     #   :insights,     #A Statistics result for an Ad object
     #   :previews      #Preview of the ad
