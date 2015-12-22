@@ -59,6 +59,7 @@ module Zuck
 
     parent_object :ad_account
     list_path     :adcreatives
+    connections   :previews
 
   end
 end
