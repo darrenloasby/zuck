@@ -1,3 +1,4 @@
+require 'zuck/facebook/ad_creative'
 
 module Zuck
   class Ad < RawFbObject
@@ -20,7 +21,7 @@ module Zuck
     parent_object :ad_set, as: :adset_id
 
     def ad_creative
-      AdAccount.find creative["id"]
+      AdCreative.find creative["id"]
     end
 
     # connections :, #Creative associated with this ad
