@@ -59,7 +59,11 @@ module Zuck
 
     parent_object :ad_account
     list_path     :adcreatives
-    connections   :previews
+    # connections   :ad_previews
+
+    def ad_previews
+      graph.get_connection(id, "previews", {ad_format: "DESKTOP_FEED_STANDARD"}, options = {})#(self.id, "adaccounts", adaccounts: destination_account_ids.to_json)
+    end
 
   end
 end
